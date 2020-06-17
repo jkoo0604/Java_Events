@@ -3,6 +3,7 @@ package com.jkoo.events.models;
 import java.util.Date;
 import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -51,7 +52,7 @@ public class Event {
     @JoinColumn(name="host_id")
     private User host;
     //OnetoMany to messages
-    @OneToMany(mappedBy="event", fetch = FetchType.LAZY)
+    @OneToMany(mappedBy="event", fetch = FetchType.LAZY, cascade=CascadeType.ALL)
     private List<Message> messages;
     
     
