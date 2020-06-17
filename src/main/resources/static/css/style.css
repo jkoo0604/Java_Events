@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+.container {
+	margin: auto;
+	width: 900px;
+	margin-top: 15px;
+}
+
+a, .btn-link {
+	color: darkslategrey;
+}
+
+.padding {
+	margin: 15px;
+}
+
+.err {
+	color: red;
+	font-size: 13px;
+	padding: 0px 0px 0px 15px;
+	margin: 0px;
+}
+
+.list-group-item.active {
+	background-color: #343a40;
+	border-color: #343a40;
+	color: white;
+}
+
+.page-link {
+	color: #343a40;
+}
+
+.page-item.active .page-link {
+	background-color: #343a40;
+	border-color: #343a40;
+	color: white;
+}
+
+fieldset {
+	padding: 20px;
+}
+
+.eventform {
+	width: 100%;
+}
+
+.messages {
+	height: 300px;
+	overflow: auto;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+}
+
+.msg {
+	font-size: 14px;
+	margin: 0px;
+	padding: 3px 20px;
+}
+
+.msgdate {
+	font-size: 12px;
+	color: lightgrey;
+	margin: 0px;
+	padding: 5px 20px;
+}
+
+.linebr {
+	margin: 10px 20px;
+	border-top: 1px solid black;
+}
