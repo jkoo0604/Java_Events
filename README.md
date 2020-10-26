@@ -1,6 +1,6 @@
 # Events (Belt Reviewer)
 
-### A Java app where users create/edit/delete/join events and leave messages  
+### A Java app where users can create/edit/delete/join events and leave messages  
 ##### From the Java (Spring Boot) stack at Coding Dojo
 
 
